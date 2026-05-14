@@ -1,5 +1,70 @@
 body {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)),
+    url('../img/fondo.png');
     font-family: 'Abel', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+span { /* nombre de artista en negrita */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+span:hover, cite:hover, a:hover { /* nombre de artista, obras y mail colores */
+    color: rgb(118, 222, 231);
+}
+
+
+a { /* color de enlaces nav y mail */
+    font-family: 'Lato', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.cita { /* cita de autor INDEX */
+    margin-left: 55rem;
+    font-size: 20px;
+    text-align:center;
+    width: 22rem;
+}
+
+
+
+.parrafo { /* todos los parrafos */
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.parrafo1 { /* parrafos de INDEX */
+    width: 50%;
+}
+
+.parrafo2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Lato', Arial, sans-serif;
+    display: block;
+    margin: 50px;
+}
+
+.imagen1-index { /* imagen de autor INDEX */
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
 }
