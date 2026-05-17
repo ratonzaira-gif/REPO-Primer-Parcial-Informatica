@@ -28,7 +28,6 @@ body {
     margin: auto;
 }
 
-    font-family: 'Lato', Arial, sans-serif;
 .parrafo-titulo {
     font-size: 25px;
 }
@@ -185,7 +184,6 @@ a {
     border-radius: 3px;
     border-width: 1px;
     border-block-width: 7px;
-    font-family: 'Lato', Arial, sans-serif;
     font-size: 22px;
     display: flex;
     gap: 32px;
