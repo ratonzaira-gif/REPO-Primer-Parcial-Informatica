@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.contenedor {
+.contenedor { /* contenedor header INDEX */
     /* todos los h1 */
     color: rgb(118, 222, 231);
     background-color: rgb(1, 10, 47);
@@ -28,12 +28,11 @@ body {
     margin: auto;
 }
 
-.parrafo-titulo {
+.parrafo-titulo { /* parrafo titulo INDEX */
     font-size: 25px;
 }
 
-.encabezados {
-    /* h2, h3, h4 */
+.encabezados { /* h2 */
     color: rgb(118, 222, 231);
     background-color: rgb(1, 10, 47);
     border: 4px solid rgb(1, 10, 47);
@@ -52,18 +51,15 @@ body {
 .w6 { width: 38%;}
 .w7 { width: 34%;}
 
-.titulo-chico {
-    /* h2 */
+.titulo-chico { /* h2 */
     font-size: 23px;
 }
 
-.titulo-normal {
-    /* h2 */
+.titulo-normal { /* h2 */    
     font-size: 26px;
 }
 
-.parrafo {
-    /* todos los parrafos */
+.parrafo { /* todos los parrafos */
     color: rgb(255, 255, 255);
     background-color: rgb(1, 10, 47);
     border: 4px solid rgb(1, 10, 47);
@@ -77,39 +73,36 @@ body {
 }
 
 
-.cita {
-    /* cita de autor INDEX */
+.cita { /* cita de autor INDEX */
     margin-right: 61rem;
     font-size: 23px;
     text-align: center;
     width: 40%;
 }
 
-.clases {
-    /* parrafos de INDEX, OBRAS y  */
+.clases { /* parrafos de INDEX, OBRAS */
     width: 30rem;
 }
 
-.p1art {
+.p1art { /* parrafo 1 LENGUAJE ARTISTICO */
     width: 38rem;
 }
 
-.p2art {
+.p2art { /* parrafo 2 LENGUAJE ARTISTICO */
     width: 38rem;
     margin-top: 4rem;
 }
 
-.p1obras {
+.p1obras { /* parrafo 1 de OBRAS */
     width: 38rem;
 }
 
-.p2obras {
+.p2obras { /* parrafo 2 de OBRAS */
     margin-top: 10rem;
     width: 34rem;
 }
 
-.galeria {
-    /* posición de fotos en OBRAS */
+.galeria { /* fotos en OBRAS */
     display: flex;
     gap: 30px;
     border: 6px solid rgb(1, 10, 47);
@@ -120,21 +113,20 @@ body {
     margin-top: 15rem;
 }
 
-.galeria2 {
+.galeria2 { /* posición de fotos en OBRAS */
     width: 350px;
     height: 450px;
     margin-left: 15rem;
     margin-top: 20px;
 }
 
-.posicion-fotos {
+.posicion-fotos { /* posición de fotos en OBRAS */
     display: flex;
     gap: 20px;
     margin-top: 20px;
 }
 
-.video {
-    /* posición del video en IA */
+.video { /* posición del video en IA */
     border: 4px solid rgb(1, 10, 47);
     border-radius: 5px;
     width: 560px;
@@ -142,41 +134,31 @@ body {
     margin-left: 30rem;
 }
 
-.article1 {
-    /* posición de parrafos en INDEX */
+.article1 { /* posición de parrafos en INDEX */
     display: flex;
     gap: 5%;
     align-items: flex-start;
     width: 45%;
 }
 
-.div {
-    /* div en IA */
-    display: flex;
+.div { /* posicion de parrafos en LENGUAJE ARTISTICO */
+   display: flex;
 }
 
-span {
-    /* nombre de artista en negrita */
+span { /* nombre de artista en negrita */
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-span:hover,
-cite:hover,
-a:hover {
-    /* nombre de artista, obras y mail colores */
+span:hover, cite:hover, a:hover { /* nombre de artista, obras y mail colores */
     color: rgb(118, 222, 231);
 }
 
-
-a {
-    /* color de enlaces nav y mail */
-    color: rgb(255, 255, 255);
+a { /* color de enlaces nav y mail */
+   color: rgb(255, 255, 255);
 }
 
-
-#nav {
-    /* barra de navegación */
+#nav { /* barra de navegación */
     color: rgb(255, 255, 255);
     background-color: rgb(1, 10, 47);
     margin-right: 86%;
@@ -192,8 +174,7 @@ a {
     margin: 3rem;
 }
 
-.ul-obras {
-    /* lista de OBRAS */
+.ul-obras { /* lista de OBRAS */
     background-color: rgb(1, 10, 47);
     border: 4px solid rgb(1, 10, 47);
     border-radius: 3px;
@@ -203,8 +184,7 @@ a {
     margin: 3rem;
 }
 
-footer {
-    /* pie de las páginas */
+footer { /* pie de las páginas contacto */
     color: rgb(255, 255, 255);
     background-color: rgb(1, 10, 47);
     border: 4px solid rgb(1, 10, 47);
@@ -213,6 +193,12 @@ footer {
     border-block-width: 7px;
     font-size: 22px;
     text-align: left;
-    margin: 3%;
+    margin: 5rem;
     width: 27rem;
+    padding: 5px;
+}
+
+footer p{ /* pie de las páginas */
+    opacity: 0.8;
+    letter-spacing: 2px;
 }
